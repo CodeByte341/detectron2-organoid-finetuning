@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pth
+*.pkl
+*.weights
+
+# Data files
+*.zip
+*.tar.gz
+organoid/
+
+# Results
+*.xlsx
+*.csv
+results/
+output/
+
+# Logs
+*.log
