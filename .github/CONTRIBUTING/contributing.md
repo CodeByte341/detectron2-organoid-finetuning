@@ -54,9 +54,3 @@ Contributions should align with these core objectives.
 ## Recognition
 
 Contributors whose suggestions are incorporated will be acknowledged in the project documentation.
-
-## Questions
-
-For general questions about the project, methodology, or usage:
-
-**Email**: fontanieraxelpro@gmail.com
