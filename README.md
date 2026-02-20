@@ -12,7 +12,7 @@ Developed as part of a bioengineering project at SupBiotech in collaboration wit
 
 ## Authors
 
-**Axel Fontanier¹**, Rosa Abdiche¹*, Eva Alpande Dos Santos¹*, Périne Fischer¹*, Camille Franceschi¹*, Axelle Guillier¹*, Jeanne Rouilleaux¹*, Julien Grimaud²
+Axel Fontanier¹*, Rosa Abdiche¹*, Eva Alpande Dos Santos¹*, Périne Fischer¹*, Camille Franceschi¹*, Axelle Guillier¹*, Jeanne Rouilleaux¹*, Julien Grimaud²
 
 ¹ Students in the 5th year of the engineering program through the apprenticeship track, Sup'Biotech, Villejuif, France  
 ² Associate PhD, Professor in Life Sciences, Head of the Student Research Valorization Office  
