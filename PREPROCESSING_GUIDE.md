@@ -12,7 +12,7 @@ The preprocessing pipeline converts raw microscopy images into COCO-format annot
 
 ### Image Acquisition
 
-Microscopy images specifications:
+Microscopy images specifications used for this study (but can be adapted according to the objectives):
 - Modality: Bright-field microscopy
 - Subject: Brain organoids
 - Format: JPEG
@@ -22,7 +22,7 @@ Microscopy images specifications:
 
 ### Image Standardization
 
-All images must be standardized to consistent dimensions. Original high-resolution images should be resized to 519×693 pixels while maintaining quality.
+All images must be standardized to consistent dimensions. Original high-resolution images have been resized to 519×693 pixels.
 
 ## Annotation Methodology
 
@@ -38,7 +38,7 @@ Manual annotation is performed using FIJI (Fiji Is Just ImageJ), an open-source 
 
 **Define Boundaries**: Using selection tools (Freehand or Polygon), manually trace the complete boundary of each organoid visible in the image.
 
-**Create Binary Mask**: Convert the selection to a binary mask where white pixels (value 255) represent the organoid region and black pixels (value 0) represent the background.
+**Create Binary Mask**: Convert the selection to a binary mask where white pixels (value 1) represent the organoid region and black pixels (value 0) represent the background.
 
 **Save Mask**: Save the binary mask as an 8-bit JPEG with a consistent naming convention matching the original image filename.
 
@@ -95,7 +95,7 @@ organoid/
 └── class_names.json
 ```
 
-Split ratio: 80% training, 20% validation
+Split ratio: 80% training, 10% validation and 10% test
 
 ## File Structure Requirements
 
@@ -124,10 +124,6 @@ Before training, verify:
 - Bounding boxes fall within image dimensions
 - Category IDs match class definitions
 
-### Manual Review
-
-Randomly sample annotated images and visually verify mask accuracy, boundary precision, annotation consistency, and absence of systematic errors.
-
 ## Creating Your Own Dataset
 
 To train a custom model:
@@ -146,7 +142,6 @@ Implementation details and conversion scripts are available in the project noteb
 
 - FIJI/ImageJ: https://fiji.sc/
 - COCO Format Specification: https://cocodataset.org/#format-data
-- VGG Image Annotator: https://www.robots.ox.ac.uk/~vgg/software/via/
 
 ## Contact
 
