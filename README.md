@@ -67,7 +67,7 @@ The project files are hosted on Google Drive and must be duplicated to your acco
 
 1. Open the [shared folder link](https://drive.google.com/drive/folders/1wAj3cnUmtYKuFIq_exkQeIpbaqb5n2-c?usp=drive_link)
 2. Right-click on "Detectron2_Organoid_FineTuning"
-3. Select "Make a copy" or "Organiser > Faire une copie"
+3. Select "Make a copy"
 4. The duplicated folder will appear in your "My Drive"
 
 #### Step 2: Open Notebooks in Google Colab
@@ -75,12 +75,12 @@ The project files are hosted on Google Drive and must be duplicated to your acco
 For inference:
 1. Navigate to `01_Notebooks/` in your Drive
 2. Right-click `Model_Inference.ipynb`
-3. Select "Open with > Google Colaboratory"
+3. Select "Open with > Google Colab"
 
 For training:
 1. Navigate to `01_Notebooks/` in your Drive
 2. Right-click `Model_Training.ipynb`
-3. Select "Open with > Google Colaboratory"
+3. Select "Open with > Google Colab"
 
 #### Step 3: Configure Runtime
 
@@ -99,9 +99,9 @@ When executing notebooks:
 
 ## Usage
 
-### Testing the Pre-trained Model
+### Testing the trained Model
 
-The repository includes 6 example images (used in the publication) for immediate testing of the pre-trained model.
+The repository includes 21 example images (used in the publication) for immediate testing of the trained model.
 
 To run inference:
 1. Open `Model_Inference.ipynb` in Google Colab
@@ -126,13 +126,13 @@ Training outputs will be saved to `02_Model/` and metrics to `04_Metrics_and_Res
 
 ### Example Images
 
-Six microscopy images with corresponding ground truth masks are provided in `03_Data/Evaluation_Test/`. These images were used in the publication and serve as examples for testing the pre-trained model.
+21 microscopy images with corresponding ground truth masks are provided in `03_Data/Evaluation_Test/`. These images were used in the publication and serve as examples for testing the pre-trained model.
 
 Users can test the model on any microscopy images following the same format.
 
 ### Training Dataset
 
-The original training dataset used to fine-tune this model is not publicly available due to data ownership by CellTechs research team.
+The complete original training dataset used to fine-tune this model is not publicly available due to data ownership by CellTechs research team.
 
 To train a custom model, users must prepare their own datasets following the preprocessing guidelines provided in this repository.
 
