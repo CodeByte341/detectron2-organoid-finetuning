@@ -8,7 +8,7 @@ This project demonstrates the application of instance segmentation techniques to
 
 Developed as part of a bioengineering project at SupBiotech in collaboration with the CellTechs research team.
 
-**Related Publication**: [SupBiotech Article](XXXXXX)
+**Related Publication**: [SupBiotech Article](https://f7c8eac9-47d6-4e8a-ac06-41332bd18d68.filesusr.com/ugd/0eac14_31d9b3b8f860435a842e6e565e6e12c4.pdf)
 
 ## Authors
 
